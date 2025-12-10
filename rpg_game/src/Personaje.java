@@ -1,13 +1,12 @@
 
 public class Personaje {
-    static String nombre;
     static int clase;
 
     static int vida;
     static int mana;
     static int danoMelee;
     static int danoMagico;
-    static int oro = 0;
+    static int oro = 5;
 
     public static void datosClase(int claseEscogida) {
         switch (clase) {
@@ -36,10 +35,10 @@ public class Personaje {
         danoMelee = 4;
         danoMagico = 18;
 
-        System.out.println(vida);
-        System.out.println(mana);
-        System.out.println(danoMelee);
-        System.out.println(danoMagico);
+        System.out.println("Vida:" + vida);
+        System.out.println("Mana: " +mana);
+        System.out.println("Daño físico: " + danoMelee);
+        System.out.println("Daño mágico: " +danoMagico);
 
     }
 
@@ -49,10 +48,10 @@ public class Personaje {
         danoMelee = 18;
         danoMagico = 0;
 
-        System.out.println(vida);
-        System.out.println(mana);
-        System.out.println(danoMelee);
-        System.out.println(danoMagico);
+        System.out.println("Vida:" + vida);
+        System.out.println("Mana: " +mana);
+        System.out.println("Daño físico: " +danoMelee);
+        System.out.println("Daño mágico: " +danoMagico);
     }
 
     public static void GuerreroMagico() {
@@ -61,10 +60,10 @@ public class Personaje {
         danoMelee = 9;
         danoMagico = 9;
 
-        System.out.println(vida);
-        System.out.println(mana);
-        System.out.println(danoMelee);
-        System.out.println(danoMagico);
+        System.out.println("Vida:" + vida);
+        System.out.println("Mana: " +mana);
+        System.out.println("Daño físico: " +danoMelee);
+        System.out.println("Daño mágico: " +danoMagico);
     }
 
     public static void Elfo() {
@@ -73,10 +72,10 @@ public class Personaje {
         danoMelee = 8;
         danoMagico = 12;
 
-        System.out.println(vida);
-        System.out.println(mana);
-        System.out.println(danoMelee);
-        System.out.println(danoMagico);
+        System.out.println("Vida:" + vida);
+        System.out.println("Mana: " + mana);
+        System.out.println("Daño físico: " +danoMelee);
+        System.out.println("Daño mágico: " +danoMagico);
     }
 
     public static void Alquimista() {
@@ -85,10 +84,10 @@ public class Personaje {
         danoMelee = 5;
         danoMagico = 15;
 
-        System.out.println(vida);
-        System.out.println(mana);
-        System.out.println(danoMelee);
-        System.out.println(danoMagico);
+        System.out.println("Vida: " + vida);
+        System.out.println("Mana: " + mana);
+        System.out.println("Daño físico: " +danoMelee);
+        System.out.println("Daño mágico: " +danoMagico);
     }
 
 }
