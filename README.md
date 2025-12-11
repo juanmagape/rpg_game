@@ -23,7 +23,7 @@ Un sencillo juego de rol (RPG) por consola implementado en Java. El jugador crea
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [URL_DEL_REPOSITORIO]
+    git clone https://github.com/juanmagape/rpg_game.git
     cd rpg_game/rpg_game
     ```
 
